@@ -1,10 +1,14 @@
-a.out: test.o libIO.a
-	gcc test.o -L. -lIO
-test.o: test.c myl.h
-	gcc -c test.c
-libIO.a: libIO.o
-	ar rcs libIO.a libIO.o
-libIO.o: myl.h
-	gcc -c -o libIO.o ass2_20CS30040.c
+a.out: main.o libass2_20CS10005.a
+	cc main.o -L. -lass2_20CS10005
+
+main.o: main.c myl.h
+	cc -c main.c
+
+libass2_20CS10005.a: ass2_20CS10005.o
+	ar -rcs libass2_20CS10005.a ass2_20CS10005.o
+
+ass2_20CS10005.o: ass2_20CS10005.c myl.h
+	cc -c ass2_20CS10005.c
+
 clean:
-	rm test.o libIO.a a.out libIO.o
+	rm a.out main.o libass2_20CS10005.a ass2_20CS10005.o

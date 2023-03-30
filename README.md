@@ -4,12 +4,12 @@ This is the repository for the `CS39003 - Compiler Laboratory` under the Departm
 
 This repository contains six assignments. Assignment 3 to 6 constitute the project "tinyC compiler". tinyC is the subset of c.
 
-All the code in this repository is written by [me](http://github.com/rsh-raj/) or my [partner](http://github.com/adityach-01/) for the assignments.   
+All the code in this repository is written by [me](http://github.com/adityach-01/) or my [partner](http://github.com/rsh-raj/) for the assignments.   
 
 The steps for running each individual assignment are in the respective folders.
 
 # Assignment 1: Annotating Assembly Code
-The annotated assembly code is in the file "ass1_20CS30040.s".
+The annotated assembly code is in the file "ass1_20CS10005.s".
 
 # Assignment 2: Creating Library
 
@@ -30,7 +30,7 @@ Run the following command to clean the directory
 
 #### **Files and their description**
 
-ass2_20CS30040.c: This is the file which contains the functions which are to be implemented in the library.   
+ass2_20CS10005.c: This is the file which contains the functions which are to be implemented in the library.   
 
 test.c: This is the test file, it demonstrates the use of the library functions by printing and reading the values of int, float and string.
 
